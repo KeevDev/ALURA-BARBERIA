@@ -1,25 +1,37 @@
 body{
     font-family: 'Montserrat', sans-serif;
+
 }
+
 header{
-    background-color: #423636;
+    background: linear-gradient(to bottom,#5f4c49,#524241,#423636,#423636);
     padding: 5px 0;
-}
-
-.caja{
-    width: 940px;
+    width: 100%;
+    height: 100px;
     position: relative;
-    margin: 0 auto;
+    z-index: 2;  /* Para que no quede por debajo del banner*/
+}
+.caja-header{
+    width: 100%;
+    position: relative;
+    margin-left: 10px;
+}
 
+
+
+#logo-principal{
+    max-width: 70px;
+    margin-left: 30px;
 }
-nav{
+
+.list-selection{
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: 40px;
+    right: 40px;
 }
-nav li{
+.list-selection li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 45px;
 }
 
 nav a{
@@ -28,15 +40,21 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-}
+    transition: all 0.5s;
 
+}
 nav a:hover{
     color: #C78C19;
+    font-size: 26px;
     
 }
 
 
+
+
+
 main{
+    position: relative;
     width: 940px;
     margin: 0 auto;
 }
@@ -62,8 +80,9 @@ form label, form legend{
 
 
 footer{
+    
     text-align: center;
-    background: url(imagenes/bg.jpg);
+    background: url(../img/bg.jpg);
     padding: 40px;
 }
 
