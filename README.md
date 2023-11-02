@@ -28,8 +28,8 @@ Este proyecto representa una emocionante iniciativa para mejorar la experiencia 
 
 ## Tecnologías utilizadas
 
-JavaScript
-Html
-Css
+- JavaScript
+- Html
+- Css
 
 
